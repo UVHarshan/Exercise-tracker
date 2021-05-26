@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import axios from "axios";
+import axios from "axios";    // Axios is used to connect front-end to the back-end
 
 //  This is a functional component
 const Exercise = (props) => (

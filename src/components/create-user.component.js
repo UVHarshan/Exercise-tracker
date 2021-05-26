@@ -11,11 +11,12 @@ export default class CreateUser extends Component {
 
     // This is just like a variable declaration
     this.state = {
-      username: "",
+      username: ""
     };
   }
 
   onChangeUsername(e) {
+    console.log(this.state.username)
     this.setState({
       username: e.target.value,
     });

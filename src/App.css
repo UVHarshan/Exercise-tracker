@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.signup{
+  background-color: #85D7ED;
+}
+
+.account{
+  background-color: darkmagenta;
+}
